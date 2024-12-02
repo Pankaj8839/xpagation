@@ -46,7 +46,7 @@ function App() {
         setCompleteData(data);
        
       } catch (error) {
-        alert(error);
+        alert('failed to fetch data');
         console.error('Error fetching data:', error);
       }
     };
