@@ -44,6 +44,7 @@ function App() {
    
        
       } catch (error) {
+        alert(error);
         console.error('Error fetching data:', error);
       }
     };
