@@ -8,3 +8,16 @@
   align-items: center;
   gap: 10px;
 }
+.pagination button{
+  cursor: pointer;
+  background-color:  #009688;
+}
+.pagination div{
+  background-color:  #009688;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

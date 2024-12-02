@@ -59,9 +59,12 @@ function App() {
         <StyledTable data={data} />
       )}
       <div className="pagination">
-      <button onClick={handlePrevious}>←</button>
+      <button onClick={handlePrevious}>Previous</button>
+      <div>
       <p>{currentPage}</p>
-      <button onClick={handleNext}>→</button>
+      </div>
+   
+      <button onClick={handleNext}>Next</button>
       </div>
     </div>
   );
